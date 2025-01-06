@@ -52,5 +52,54 @@ console.log(typeof (stringNumber));
 
 
 // ========== Opeartons==============
+let  value=3
+let negValue=-value
+console.log(negValue);
+console.log(typeof (negValue));
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2); // 2 power of 2
+// console.log(2**3); // 2 power of 3
+// console.log(2%2);
+// console.log(2/2);
+
+
+let str1="Hello"
+let str2 =" Kundan"
+let str3=" Krishna"
+let str4=str1+str2+str3
+
+console.log(str4);
+console.log(typeof (str4));
+
+console.log("1"+2); // 12
+console.log(1+"2"); // 12
+console.log("1"+2+2); // 122
+console.log(1+2+"2"); // 32
+
+console.log((12+23)*78%23);
+
+
+
+// Not Recommended
+// console.log(+true);
+// console.log(+"");
+
+// let num1,num2,num3
+// num1=num2=num3=2+_2
+
+
+// let gameCounter=100
+// gameCounter++
+// console.log(gameCounter);// ==>101
+
+let gameCounter=100
+gameCounter++
+console.log(gameCounter); // ==>101
+
+
 
 
