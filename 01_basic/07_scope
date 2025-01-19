@@ -1,0 +1,89 @@
+//! SCOPES
+
+// var userName="Kundan"; // Global Scope
+// let UserEmail="Kundan@gmail.com"; // Script Scope
+// const password="KK@12345";//Script Scope
+
+
+
+
+// if (20>5) {
+//     var a=10; //Global Scope
+//     let b =20;//Block Scope
+//     const c=30; // Block Scope
+//     console.log(a,b,c);
+    
+// }
+
+
+ 
+// function test() {
+//     var a=100;// Local Scope
+//     let b=200; // Local Scope
+//     const c=300; // Local Scope
+//     console.log(a,b,c);
+// }
+// test();
+
+
+
+//! Global Execution context(GEC)
+// debugger
+//  console.log("Hii");
+//  var a=10;
+//  console.log(a);
+//  a=70;
+//  console.log(b);
+//  var c=30;
+//  b =80;
+//  c=50;
+//  console.log(a,c,b);
+//  var b = 100;
+//  console.log(a,b);
+ 
+ 
+ //! GEC WITH FUNCTION
+//  console.log("start");
+//  var a=10;
+//  console.log("Function Start");
+
+//  function print(){
+//     console.log(a);
+//     console.log("Funxtion tasks done");
+     
+//  }
+//  print();
+
+//  console.log("Function executed ");
+// console.log(b,a);
+// var b;
+// b=50;
+// console.log(b,a);
+// console.log("end");
+
+
+
+
+
+ //! Example 2
+//  console.log("start");
+//  function test1() {
+//     console.log("I am test1 function");
+    
+//  }
+//  test2();
+
+//  console.log("Hii");
+//  var a=20;
+//  console.log(a);
+//  var b=30;
+//  console.log(a+b);
+
+//  function test2() {
+//     console.log("I am test2 functio");
+    
+//  }
+//  test1();
+//  console.log("end");
+ 
+ 
